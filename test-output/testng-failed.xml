@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.test.zooplaTests.zooplahome">
+        <methods>
+          <include name="closezoopla"/>
+          <include name="appurl"/>
+          <include name="launchzoopla"/>
+        </methods>
+      </class> <!-- com.test.zooplaTests.zooplahome -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
